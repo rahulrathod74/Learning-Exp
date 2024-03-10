@@ -1,0 +1,104 @@
+.main-footer{
+    padding: 80px ;
+    background-color: #EBEBF8;
+    position: relative;
+    margin-top: 197px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+.footer ul p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.footer ul li{
+    list-style: none;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: gray;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex img{
+    width: 19%;
+}
+.flex h1{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: gray;
+}
+.midea{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.last p{
+    color: gray;
+    font-family: sans-serif;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 59%;
+    margin: 0 auto;
+    background-color: #333697;
+    border-radius: 10px;
+    position:absolute;
+    top: -74px;
+    right: 272px;
+
+    
+}
+.contact .us{
+    width: 50%;
+}
+.contact .us h3{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.contact .us p{
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.contact .email{
+    position: relative;
+    
+}
+.contact .email input{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.send{
+    position: absolute;
+    top: 13%;
+    left: 77%;
+
+}
+.send button{
+    padding: 6px 10px;
+    border: none;
+    background-color: yellow;
+    border-radius: 30px;
+}

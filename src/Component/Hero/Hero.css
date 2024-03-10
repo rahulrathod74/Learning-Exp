@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.learning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.learning h2{
+    font-size: 2.8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    width: 38%;
+    text-align: center;
+}
+.learning >p{
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 45%;
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+.mean-card{
+    display: flex;
+   justify-content: center;
+    align-items: center; 
+    padding: 46px;
+    column-gap: 80px;
+}
+.mean-card .card1,.midel{
+    background-color: #F9F9FF;
+    border: 1px solid black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.card1 img{
+    width: 60%;   
+}
+.card1 h3{
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.card1 p{
+    font-size: 18px;
+    width: 90%;
+    color: gray;
+}
+.midel {
+    margin-bottom : 29px;
+    background-color: #e9d607dd;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.midel img{
+    width: 60%;
+    
+}
+.midel h3{
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.midel p{
+    font-size: 18px;
+    width: 90%;
+    color: gray;
+}

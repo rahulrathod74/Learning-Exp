@@ -1,0 +1,61 @@
+.program-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.program-heading h2{
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    width: 55%;
+    text-align: center;
+}
+.program-heading p{
+    width: 42%;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+}
+/* program */
+.batch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+
+}
+.batch1,.batch2,.batch3,.batch4{
+    display: flex;
+    align-items: center;
+}
+.batch1 i{
+    color: #1453FF;
+    font-size: 55px;
+    margin-right: 5px;
+    
+}
+
+.tick h3{
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    color: blue;
+}
+.tick p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.take{
+    color: blue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+
+
